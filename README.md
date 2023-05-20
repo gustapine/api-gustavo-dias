@@ -16,7 +16,7 @@ This documentation provides information about the News Subscribers API, which al
 
 Retrieves information for all subscribers.
 
-- Endpoint: GET /assinantes
+- Endpoint: GET ```/assinantes```
 - Response Format: JSON
 - Response Body:
 
@@ -41,7 +41,7 @@ Retrieves information for all subscribers.
 
 Retrieves information for a specific subscriber by their ID.
 
-- Endpoint: GET /assinantes/:id
+- Endpoint: GET ```/assinantes/:id```
 - Parameters:
 - id: The ID of the subscriber
 - Response Format: JSON
@@ -60,7 +60,7 @@ Retrieves information for a specific subscriber by their ID.
 
 Creates a new subscriber:
 
-- Endpoint: POST /assinantes
+- Endpoint: POST ```/assinantes```
 - Request Format: JSON
 - Request Body:
 
@@ -87,7 +87,7 @@ Creates a new subscriber:
 
 Updates the information for a specific subscriber by their ID.
 
-- Endpoint: PUT /assinantes/:id
+- Endpoint: PUT ```/assinantes/:id```
 - Parameters:
 -  id: The ID of the subscriber
 - Request Format: JSON
@@ -118,7 +118,7 @@ Updates the information for a specific subscriber by their ID.
 
 Deletes a specific subscriber by their ID.
 
-- Endpoint: DELETE /assinantes/:id
+- Endpoint: DELETE ```/assinantes/:id```
 - Parameters:
 - id: The ID of the subscriber
 - Response Format: JSON

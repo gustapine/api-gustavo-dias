@@ -10,7 +10,7 @@ This documentation provides information about the News Subscribers API, which al
 
 ## Base URL
 
-``` http://localhost:3000/api/v1/assinantes/ ```
+``` http://localhost:3000/api/v1/ ```
 
 ## Retrieve All Subscribers
 

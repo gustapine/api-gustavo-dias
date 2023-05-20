@@ -87,7 +87,7 @@ Creates a new subscriber:
 
 Updates the information for a specific subscriber by their ID.
 
-- Endpoint: PUT /subscribers/:id
+- Endpoint: PUT /assinantes/:id
 - Parameters:
 -  id: The ID of the subscriber
 - Request Format: JSON

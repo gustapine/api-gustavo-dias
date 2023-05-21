@@ -72,6 +72,34 @@ const postsController = {
                 status: "error"
             })
         }
+    },
+    getEmailById: async (req, res) => {
+        try {
+            const { id } = req.params
+            const [rows, field] = await pool.query('select nome_assinante, email_assinante from assinantes where id = ?', [id])
+            res.json({
+                data: rows
+            })
+        } catch (error) {
+            console.log(error)
+            res.json({
+                status: "error"
+            })
+        }
+    },
+    getEmailByEmail: async (req, res) => {
+        try {
+            const { email } = req.params
+            const [rows, field] = await pool.query("select nome_assinante, email_assinante from assinantes where email_assinante = ?", [email])
+            res.json({
+                data: rows
+            })
+        } catch (error) {
+            console.log(error)
+            res.json({
+                status: "error"
+            })
+        }
     }
 }
 

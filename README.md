@@ -133,6 +133,42 @@ Deletes a specific subscriber by their ID.
   }
 }
 ```
+## Retrieve Subscriber E-mail by ID
+
+Retrieves email information for a specific subscriber by their ID.
+
+- Endpoint: GET ```/assinantes/email/:id```
+- Parameters:
+- id: The ID of the subscriber
+- Response Format: JSON
+- Response Body:
+
+```json
+{
+  "data": {
+    "nome": "Fulano de Tal",
+    "email": "fulano@example.com"
+  }
+}
+```
+## Retrieve Subscriber E-mail by E-mail
+
+Retrieves email information for a specific subscriber by their e-mail.
+
+- Endpoint: GET ```/assinantes/email/esc/:id```
+- Parameters:
+- e-mail: The e-mail of the subscriber
+- Response Format: JSON
+- Response Body:
+
+```json
+{
+  "data": {
+    "nome": "Fulano de Tal",
+    "email": "fulano@example.com"
+  }
+}
+```
 
 ```bash
 Feel free to copy and paste this Markdown format directly into your README.md file on GitHub.

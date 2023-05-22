@@ -1,6 +1,6 @@
 # 🏴‍☠️ API TIME 🏴‍☠️
 
-## ‼️This repository contains the the project made for server-side n2 of the 3th semester of college.‼️
+## ‼️This repository contains the the project made for n2 server-side class of the 3th semester.‼️
 
 ###RESTFUL API  of a newsletter subscribers made for a college project.
 

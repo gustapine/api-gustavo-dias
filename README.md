@@ -2,7 +2,7 @@
 
 ## ‼️This repository contains the the project made for n2 server-side class of the 3th semester.‼️
 
-### RESTFUL API  of a newsletter subscribers made for a college project.
+### RESTFUL API  of a newsletter subscribers.
 
 # News Subscribers API Documentation
 

@@ -155,7 +155,7 @@ Retrieves email information for a specific subscriber by their ID.
 
 Retrieves email information for a specific subscriber by their e-mail.
 
-- Endpoint: GET ```/assinantes/email/esc/:id```
+- Endpoint: GET ```/assinantes/email/esc/:email```
 - Parameters:
 - e-mail: The e-mail of the subscriber
 - Response Format: JSON
